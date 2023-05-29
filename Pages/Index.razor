@@ -1,0 +1,89 @@
+﻿@page "/"
+
+
+<PageTitle>Quản lí thư viện</PageTitle>
+
+<button class="btn-box1">Quản lí độc giả</button>
+<NavLink class="nav-link" href="ShowDocGia">             
+                <button class="btn-box2">Thông tin tác giả</button>
+            </NavLink>
+<div id="DocGia-form">
+    <div class="section-top">
+        <div class="box-left">
+            <div class="sec-span">             
+                <span>Mã độc giả :</span><br />
+                <span>Tên độc giả :</span><br />
+                <span>Giới tính :</span><br />             
+            </div>
+            <div class="sec-input">
+               <input type="text"/><br />
+               <input type="text"/><br />
+               <input type="radio" name="gender" value="Nam"/>Nam
+               <input  type="radio" name="gender" value="Nữ"/>Nữ
+             </div>           
+        </div>
+        <div class="box-right">
+            <div class="sec-span">             
+                <span>Số điện thoại :</span><br />
+                <span>Ngày sinh :</span><br />
+                <span>Email :</span><br />             
+            </div>
+            <div class="sec-input">
+               <input type="number"/><br />
+               <input type="datetime" /><br />
+               <input type="email"/>
+             </div> 
+        </div>  
+        </div>
+    
+
+    <div class="section-bottom">
+        <button class="box-add">Thêm mới</button>
+        <button class="box-setup">Sửa</button>
+    </div>
+
+    <div class="section-table table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã tài khoản</th>
+                <th>Tên tài khoản</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+            </tr>
+        </thead>
+    </table>  
+ </div>
+</div>
+@code {
+    List<TaiKhoan> items = new List<TaiKhoan>();
+
+    protected override void OnInitialized()
+    {
+        // Lấy danh sách các đối tượng TaiKhoan từ database hoặc API
+       // items = GetTaiKhoanList();
+    }
+
+    //private List<TaiKhoan> GetTaiKhoanList()
+    //{
+        // Code để lấy danh sách các đối tượng TaiKhoan từ database hoặc API
+        // ...
+
+       // return list;
+   // }
+
+    private class TaiKhoan
+    {
+        public string MaTaiKhoan { get; set; }
+        public string TenTaiKhoan { get; set; }
+        public DateTime NgaySinh { get; set; }
+        public string GioiTinh { get; set; }
+        public string Email { get; set; }
+        public string SoDienThoai { get; set; }
+    }
+}
+
+
+

@@ -1,0 +1,334 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+
+html,body {
+font-family:'Times New Roman', Times, serif;
+}
+html span {
+    color:white;
+}
+#header {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(180deg, rgb(48, 153, 232) 0%, #0fbaee 70%);
+}
+.Ten {
+    display:inline-block;
+    margin-left:50%;
+    transform:translate(-50%);
+    margin-top:20px;
+    font-weight:700;
+}
+.btn-logout {
+    border: 2px solid black;
+    background: #00FFFF;
+    margin-left:200px;
+    padding:5px 15px;
+    border-radius:5px;
+}
+    .btn-logout:hover {
+        background: #5be5d6;
+    }
+.btn-box1 {
+    margin-top:8px;
+    background: #23cee9;
+    position:absolute;
+    border-radius:6px;
+}
+.btn-box1:hover {
+    background:#5be5d6;
+}
+.btn-box2 {
+    background: #EEEEEE;
+    position:relative;
+    left:120px;
+    border-radius:6px;
+}
+    .btn-box2:hover {
+        background: #5be5d6;
+    }
+#DocGia-form {
+    width: 100%;
+    height: auto;
+    background-color: #33CCFF;
+    border: 2px solid #999999;
+    border-radius: 10px;
+}
+.section-top {
+    display: flex;
+    justify-content: space-around;
+}
+.section-top .box-left {
+     display:flex;
+}
+
+.section-top .box-left>.sec-span {
+  margin-top:30px;
+  line-height:85px;
+}
+
+.section-top .box-left input {
+        margin-top: 60px;
+        margin-left: 60px;
+}
+.box-right > .sec-span {
+    margin-top: 25px;
+    line-height: 85px;
+}
+.box-right input {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.section-bottom {
+    margin-top: 20px;
+    border-bottom: 3px solid #DDDDDD;
+    padding-bottom: 20px;
+}
+.box-search {
+    background: #00FFFF;
+    border-radius:4px;
+    margin-left:20px;
+}
+    .box-search:hover {
+        background: #5be5d6;
+    }
+.box-add {
+    background: #00FFFF;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 4px;
+}
+
+    .box-add:hover {
+        background: #5be5d6;
+    }
+.box-setup {
+    border-radius: 4px;
+}
+    .box-setup:hover {
+        background: #5be5d6;
+    }
+
+.section-table {
+    width:90%;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #AAAAAA;
+    margin-bottom:20px;
+}
+table {
+    background: #3399FF;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    height: auto;
+}
+th {
+    text-align:center;
+    border-right:1px solid ;
+    color:white;
+}
+/*login*/
+.login {
+    background-image: linear-gradient(180deg, rgb(71, 235, 241) 0%, rgb(88, 198, 219) 70%);
+    margin-top: 50px;
+    width: 35%;
+    padding:20px 10px;
+    border-radius:10px;
+}
+.login h2 {
+    text-align:center;
+}
+.btn-primary {
+    margin-top: 20px;
+}
+select {
+    width:310px;
+    height:35px;
+}
+/*show doc gia*/
+.search {
+    padding:5px 25px;
+    margin-top:50px;
+    margin-left:45px;
+    border-radius:6px;
+}
+
+/*ql mượn trả*/
+#ql-borrow {
+    background-color: #33CCFF;
+}
+.section-one {
+    display:flex;
+    justify-content:space-around;
+}
+
+.section-one-left {
+    display:flex;
+    height:auto;
+    width:40%;
+    border:5px solid #EEEEEE;
+    border-radius:10px;
+    position:relative;
+    top:20px;
+}
+    .section-one-left .sec-span {
+        line-height:65px;
+        position:relative;
+    }
+    .section-one-left .sec-input {
+        margin-top:-10px;
+    }
+#ql-borrow .section-one-left h3 {
+    position: absolute;
+    top: -18px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    border: 3px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.section-one-right {
+    display: flex;
+    width: 40%;
+    height: auto;
+    border: 5px solid #EEEEEE;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;   
+}
+
+.section-one-right .sec-span {
+   line-height:65px;
+    position: relative;
+}
+.section-one-right .sec-input {
+    margin-top: -10px;
+}
+#ql-borrow .section-one-right h3 {
+    position: absolute;
+    top: -18px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.section-one-left span, .section-one-right span {
+    margin-top: 15px;
+    margin-left:30px;
+}
+
+.section-one-left input, .section-one-right input {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.section-one-right button {
+    border: 2px solid #EEEEEE;
+    position:relative;
+    padding:0px 10px;
+    top:20px;
+    left:25px;
+
+}
+
+
+#Trangthai-form {
+    background-color: #33CCFF;
+}
+
+
+/*ql mượn trả*/
+.section-qlsach {
+    background-color: #33CCFF;
+}
+
+.in4-sach {
+    display: flex;
+    justify-content: space-around;
+}
+.in4-sach .box-left {
+    display:flex;
+    margin-top:50px;
+    border:4px solid #EEEEEE;
+    width:35%;
+    border-radius:10px;
+}
+.in4-sach .box-left .sec-span{
+    line-height:78px;
+    position:relative;
+    left:20px;
+}
+.in4-sach .box-left .sec-input {
+    margin-top:-25px;
+    margin-left:70px
+}
+.in4-sach .box-left input {
+    margin-top:50px;
+}
+    .in4-sach .box-right {
+        display: flex;
+        margin-top: 50px;
+        border: 4px solid #EEEEEE;
+        width: 35%;
+        border-radius: 10px;
+    }
+        .in4-sach .box-right .sec-span {
+            position:relative;
+            top:-30px;
+            left:20px;
+        }
+        .in4-sach .box-right .sec-input {
+           margin-top:-38px;
+           margin-left:-15px;
+        }
+
+        .section-qlsach .section-bottom {
+            margin-top:50px;
+            margin-left:-200px;
+        }
+.box-del {
+            background: #f41212;
+            color: black;
+            border-radius: 4px;
+            padding: 0px 5px;
+            margin-left: 40px;
+}
+.box-del:hover {
+    background:#ed5858;
+}
+
+
+/*detail sách*/
+.section-detailsach {
+    background-color: #33CCFF;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.sec-span {
+    display:inline-block;
+}
+.sec-input {
+    display:inline-block;
+    margin-left:40px;
+}
+.left-detail ,.right-detail{
+    margin-top:30px;
+}
+.section-table {
+    background-image: linear-gradient(180deg, rgb(84, 187, 228) 0%, rgb(81, 200, 231) 70%);
+}
+    .section-table tr {
+       border-bottom:1px solid white;
+    }
+    .section-table td {
+        color: white;
+        display: inline-block;
+        border-bottom: none;
+    }

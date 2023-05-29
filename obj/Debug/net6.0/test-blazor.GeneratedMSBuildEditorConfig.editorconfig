@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = test-blazor
+build_property.RootNamespace = test-blazor
+build_property.ProjectDir = C:\C#\Interface-CCPTPM\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\C#\Interface-CCPTPM
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/C\#/Interface-CCPTPM/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/DetailSach.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsU2FjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/QLmuontra.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUUxtdW9udHJhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/QLSach.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUUxTYWNoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/ShowDocGia.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0RvY0dpYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Pages/Trangthai.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbmd0aGFpLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/Interface-CCPTPM/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2t7y72l2e3
+
+[C:/C\#/Interface-CCPTPM/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-e4ev7e8wj0

@@ -1,0 +1,70 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+
+<PageTitle>Quản lí sách</PageTitle>
+
+
+
+<button class="btn-box1">Quản lí sách</button>
+<NavLink class="nav-link" href="detailsach">          
+                <button class="btn-box2">Chi tiết sách</button>
+            </NavLink>
+
+<div class="section-qlsach">
+    <div class="in4-sach">
+        <div class="box-left">
+
+            <div class="sec-span">
+                <span>Tên sách :</span><br />
+                <span>Mã sách :</span><br />
+                <span>Số lượng :</span>
+            </div>
+            <div class="sec-input">
+                <input type="text"/><br />
+                <input type="text"/><br />
+                 <input type="number"/>
+             </div>        
+        </div>
+        <div class="box-right">
+            <div class="sec-span">
+                <span>Tác giả :</span><br />
+                <span>Loại sách :</span><br />
+                <span>Nhà xuất bản :</span>
+            </div>
+            <div class="sec-input">
+                <input type="text"/><br />
+                <input type="text"/><br />
+                <input type="text"/><br />
+             </div>                              
+        </div>     
+    </div>
+    <div class="section-bottom">
+        <button class="box-add">Thêm mới</button>
+        <button class="box-setup">Sửa</button>
+        <button class="box-del">Xóa</button>
+        <button class="box-search" style="margin-left:40px;border-radius:4px;">Tìm kiếm</button>
+    </div>
+
+    <div class="section-table table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên sách</th>
+                <th>Mã sách</th>
+                <th>Số lượng</th>
+                <th>Tác giả</th>
+                <th>Loại sách</th>
+                <th>Nhà xuất bản</th>
+            </tr>
+        </thead>
+    </table>  
+
+</div>
+</div>
+
+
+
+@code {
+   
+}
