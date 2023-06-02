@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\wwwroot\\css\\bootstrap",
+    "\\wwwroot\\css\\open-iconic",
+    "\\wwwroot\\css\\open-iconic\\font"
   ],
   "SelectedNode": "\\test-blazor.sln",
   "PreviewInSolutionExplorer": false

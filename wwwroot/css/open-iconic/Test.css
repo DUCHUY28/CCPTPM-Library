@@ -118,7 +118,7 @@ html span {
     margin-bottom:20px;
 }
 table {
-    background: #3399FF;
+    background: white;
     border: 2px solid #AAAAAA;
     border-radius: 4px;
     height: auto;
@@ -126,7 +126,13 @@ table {
 th {
     text-align:center;
     border-right:1px solid ;
+    color:black;
+}
+td {
     color:white;
+}
+.section-table tr {
+    border-bottom: 1px solid black;
 }
 /*login*/
 .login {

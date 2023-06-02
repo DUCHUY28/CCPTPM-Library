@@ -5,6 +5,32 @@
 <NavLink class="nav-link" href="detailsach">          
                 <button class="btn-box2">Xem trạng thái</button>
             </NavLink>
+            <style>
+                table {
+                    background:white;
+                }
+    th {
+        color:black;
+    }
+    .section-table tr {
+        border-bottom:1px solid black;
+    }
+    .section-table td {
+    color: black;
+}
+.boxbtn {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.box1,.box2 {
+    border-radius:4px;
+}
+.box1 {
+    background:#23cee9;
+    margin-left:45%;
+    transform:translate(-50%)
+}
+</style>
 <div id="Trangthai-form">
     <div class="container">
         <input type="text" placeholder="Tìm kiếm" class="search"/>
@@ -22,9 +48,18 @@
                 <th>Ngày trả</th>
                 <th>Số lượng mượn</th>
             </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
         </thead>
     </table>  
 
+</div>
+<div class="boxbtn">
+    <button class="box1">Chưa trả</button>
+    <button class="box2">Trả muộn</button>
 </div>
 </div>
 @code {
